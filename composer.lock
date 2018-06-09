@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2d82f7604152ac88c55cc72b4822992e",
+    "packages": [
+        {
+            "name": "spip/forum",
+            "version": "1.9.36",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/forum.git",
+                "reference": "ef77722ec8279315f82194b6d55bab2746395e09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/forum/spip-forum-1.9.36-944c7c.zip",
+                "reference": "ef77722ec8279315f82194b6d55bab2746395e09",
+                "shasum": "a59e64c61bae17ab7f59ddcd114bdf47a6d8ccf6"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Gestion des forums privés et publics dans SPIP",
+            "time": "2018-06-07T17:01:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

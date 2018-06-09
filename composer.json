@@ -1,13 +1,19 @@
 {
-    "name": "geodiversite/squelettes",
-    "description": "un squelette pour SPIP qui permet de mettre en place une galerie de médias géoréférencés",
+    "name": "geodiv/squelettes",
+    "description": "Un squelette pour SPIP qui permet de mettre en place une galerie de médias géoréférencés",
     "type": "spip-plugin",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "brunob",
-            "email": "brunobergot@gmail.com"
+            "email": "bruno@eliaz.fr"
         }
     ],
-    "require": {}
+    "repositories": [{
+        "type": "composer",
+        "url": "https://composer-spip.lerebooteux.fr"
+    }],
+    "require": {
+        "spip/forum": "1.9.*"
+    }
 }
